@@ -1,53 +1,124 @@
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #0f1624;
-    color: #ffffff;
-  }
-  
-  nav {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    background-color: #13151a;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    padding-left: 0;
-  }
-  
-  .navbar li a {
-    text-decoration: none;
-    font-size: 1rem;
-    color: #ffffffcc;
-    position: relative;
-  }
-  
-  .navbar li a.active,
-  .navbar li a:hover {
-    color: #6ac5fe;
-  }
-  
-  .navbar li a.active::after,
-  .navbar li a:hover::after {
-    content: '';
-    display: block;
-    height: 2px;
-    background-color: #6ac5fe;
-    margin-top: 4px;
-  }
-  
-  /* Footer */
-  footer {
-    text-align: center;
-    margin-top: 3rem;
-    color: #aaa;
-    font-size: 0.9rem;
-  }
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f1624;
+  color: #ffffff;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #13151a;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding-left: 0;
+}
+
+.navbar li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffffcc;
+  position: relative;
+}
+
+.navbar li a.active,
+.navbar li a:hover {
+  color: #6ac5fe;
+}
+
+.navbar li a.active::after,
+.navbar li a:hover::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: #6ac5fe;
+  margin-top: 4px;
+}
+
+.about-me {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  margin: 10px;
+  margin-right: 50px;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.about-me img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  border: 5px solid #142142;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  margin-left: 50px;
+}
+
+.hr-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0;
+  color: #ffffffcc;
+}
+
+.hr-text::before,
+.hr-text::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #1b3443;
+  margin: 10px;
+}
+
+.about-me .text {
+  max-width: 500px;
+  color: #ffffffcc;
+}
+
+.description p {
+  font-size: 18px;
+  color: #ffffffcc;
+  line-height: 1.6;
+}
+
+.more-information ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 35px;
+}
+
+.more-information li {
+  flex: 1 1 50px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #ffffffcc;
+}
+
+.more-information li::before {
+  content: '>';
+  color: #2089ec;
+  margin-right: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 48px;
+  color: #aaa;
+  font-size: 14px;
+}
