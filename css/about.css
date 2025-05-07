@@ -50,10 +50,7 @@ nav {
   gap: 25px;
   margin: 10px;
   margin-right: 50px;
-}
-
-.container {
-  max-width: 900px;
+  max-width: auto;
 }
 
 .about-me img {
@@ -94,7 +91,7 @@ nav {
 
 .more-information ul{
   list-style: none;
-  padding: 0;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -102,7 +99,7 @@ nav {
 }
 
 .more-information li {
-  flex: 1 1 50px;
+  flex: 20px;
   display: flex;
   align-items: center;
   font-size: 16px;
@@ -113,6 +110,119 @@ nav {
   content: '>';
   color: #2089ec;
   margin-right: 10px;
+}
+
+h1 {
+  font-size: medium;
+  font-weight: normal;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.IHP {
+  display: flex;
+  align-items: center;
+}
+
+.number-1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #445b6f;
+  margin-left: 60px;
+}
+
+.number-1 img {
+  width: 50px;
+  height: auto;
+}
+
+.number-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #445b6f;
+  margin-left: 60px;
+}
+
+.number-2 img {
+  width: 50px;
+  height: auto;
+}
+
+.number-3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #445b6f;
+  margin-left: 60px;
+}
+
+.number-3 img {
+  width: 50px;
+  height: auto;
+}
+
+.number-4 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #445b6f;
+  margin-left: 60px;
+}
+
+.number-4 img {
+  width: 30px;
+  height: auto;
+  padding: 10px;
+}
+
+.number-5 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 30px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #445b6f;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.number-5 img {
+  width: 30px;
+  height: auto;
+  padding: 10px;
+}
+
+.IHP :hover {
+  background-color: #142142;
 }
 
 /* Footer */
