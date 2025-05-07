@@ -44,6 +44,179 @@ nav {
     margin-top: 4px;
 }
 
+.hr-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0;
+  color: #ffffffcc;
+}
+
+.hr-text::before,
+.hr-text::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #1b3443;
+  margin: 10px;
+}
+
+.education img{
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 350px;
+  height: auto;
+  padding: 10px;
+}
+
+.education{
+  display: flex;
+  justify-content: center;
+}
+
+.hs
+{
+  width: fit-content;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #142142;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+  padding: 20px;
+}
+
+h1{
+  font-size: x-large;
+}
+
+h2{
+  font-size: medium;
+}
+
+h4{
+  font-size: large;
+}
+
+.shs
+{
+  width: fit-content;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #142142;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+  padding: 20px;
+}
+
+.shs img{
+  width: 134px;
+}
+
+.college
+{
+  width: fit-content;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #142142;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  margin: 30px;
+  padding: 20px;
+}
+
+.college img{
+  width: 240px;
+}
+
+.oc{
+  display: flex;
+  justify-content: center;
+}
+
+.sololearn {
+  background-color: #142142;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.sololearn-2 {
+  background-color: #142142;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.cisco {
+  background-color: #142142;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.cisco-2 {
+  background-color: #142142;
+  margin: auto;
+  border-radius: 4px;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  border-radius: 4px;
+}
+
+
+.image-container img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center; /* for centered text */
+}
+
+
+.overlay h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.certificate-link {
+  background: white;
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.certificate-link:hover {
+  background-color: #6ac5fe;
+}
+
+
 /* Footer */
 footer {
     text-align: center;
