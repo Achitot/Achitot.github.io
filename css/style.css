@@ -6,57 +6,60 @@ html, body {
     background-color: #0f1624;
     color: #ffffff;
 }
-  
+
 .container {
-    padding: 60px;
-    max-width: auto;
-    margin: auto;
-    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    box-sizing: border-box;
+    text-align: center;
 }
-  
+
 .intro h1 {
-    font-size: 3rem;
+    font-size: 48px;
     font-weight: 700;
     color: #ffffff;
 }
-  
+
 .intro h2 {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 400;
     color: #ffffff;
-    margin-top: 0.5rem;
+    margin-top: 8px;
 }
-  
+
 .typing {
     color: #6ac5fe;
     font-weight: bold;
 }
-  
+
 /* Navbar */
 .navbar {
-    margin-top: 2rem;
+    margin-top: 32px;
 }
-  
+
 .navbar ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 32px;
     padding-left: 0;
 }
-  
+
 .navbar li a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 16px;
     color: #ffffffcc;
     position: relative;
 }
-  
+
 .navbar li a.active,
-  .navbar li a:hover {
+.navbar li a:hover {
     color: #6ac5fe;
 }
-  
+
 .navbar li a.active::after,
 .navbar li a:hover::after {
     content: '';
@@ -65,14 +68,14 @@ html, body {
     background-color: #6ac5fe;
     margin-top: 4px;
 }
-  
+
 /* Social icons */
 .social-icons {
-    margin-top: 2rem;
+    margin-top: 32px;
     display: flex;
-    gap: 1rem;
+    gap: 16px;
 }
-  
+
 .social-icons img {
     width: 32px;
     height: 32px;
@@ -81,7 +84,7 @@ html, body {
     padding: 8px;
     transition: background-color 0.3s;
 }
-  
+
 .social-icons img:hover {
     background-color: #6ac5fe;
 } 
@@ -89,8 +92,7 @@ html, body {
 /* Footer */
 footer {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 48px;
     color: #aaa;
-    font-size: 0.9rem;
+    font-size: 14px;
 }
-  
