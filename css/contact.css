@@ -219,6 +219,44 @@ button:hover
     }
 }
 
+.hr-text {
+  display: flex;
+  align-items: center;
+  color: #ffffffcc;
+  margin: 40px 0;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-left: 50px;
+}
+
+.hr-text::after {
+  content: '';
+  width: 300px;
+  border-bottom: 3px solid #cccccc;
+  margin-left: 16px;
+}
+
+.soc-med {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.soc-med img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30%;
+    background-color: #202634;
+    padding: 8px;
+    transition: background-color 0.3s;
+}
+
+.soc-med img:hover {
+    background-color: #6ac5fe;
+}
+
+
 /* Footer */
 footer {
     text-align: center;
