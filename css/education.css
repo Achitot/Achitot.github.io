@@ -61,7 +61,7 @@ color: #6ac5fe;
   margin-left: 16px;
 }
 
-.education img{
+.education img {
   display: block;
   margin: auto;
   text-align: center;
@@ -70,13 +70,13 @@ color: #6ac5fe;
   padding: 10px;
 }
 
-.education{
+.education {
   display: flex;
   justify-content: center;
 }
 
 
-.hs{
+.hs {
   width: fit-content;
   height: 250px;
   border-radius: 4px;
@@ -86,25 +86,25 @@ color: #6ac5fe;
   padding: 20px;
 }
 
-h1{
+h1 {
   font-size: x-large;
 }
 
-h2{
+h2 { 
   font-size: medium;
 }
 
-h4{
+h4 {
   font-size: large;
 }
 
-.hs:hover{
+.hs:hover {
   background-color: #1d2b5c;
   transform: scale(1.05);
   transition: all 0.3s ease;
 }
 
-.shs{
+.shs {
   width: fit-content;
   height: 250px;
   border-radius: 4px;
@@ -114,18 +114,17 @@ h4{
   padding: 20px;
 }
 
-.shs img{
+.shs img {
   width: 134px;
 }
 
-.shs:hover{
+.shs:hover {
   background-color: #1d2b5c;
   transform: scale(1.05);
   transition: all 0.3s ease;
 }
 
-.college
-{
+.college {
   width: fit-content;
   height: 250px;
   border-radius: 4px;
@@ -135,17 +134,17 @@ h4{
   padding: 20px;
 }
 
-.college img{
+.college img {
   width: 240px;
 }
 
-.college:hover{
+.college:hover {
   background-color: #1d2b5c;
   transform: scale(1.05);
   transition: all 0.3s ease;
 }
 
-.oc{
+.oc {
   display: flex;
   justify-content: center;
 }
@@ -207,7 +206,7 @@ h4{
 
   opacity: 0;
   transition: opacity 0.3s ease;
-  text-align: center; /* for centered text */
+  text-align: center;
 }
 
 
@@ -234,8 +233,6 @@ h4{
   background-color: #6ac5fe;
 }
 
-
-/* Footer */
 footer {
   text-align: center;
   margin-top: 3rem;
@@ -243,77 +240,55 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Responsive styles for phone viewports */
 @media screen and (max-width: 768px) {
-  nav {
+  .navbar ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
     padding: 10px 0;
   }
 
-  .navbar ul {
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
-  }
-
   .hr-text {
-    flex-direction: column;
-    align-items: center;
-    margin: 20px auto;
-    text-align: center;
-    margin-left: 0;
+    margin: 30px 10px;
+    justify-content: center;
+    font-size: 0.9rem;
   }
 
   .hr-text::after {
-    width: 150px;
-    margin: 10px auto 0 auto;
-  }
-
-  .education img {
-    width: 90%;
-    max-width: 300px;
+    width: 120px;
+    border-bottom: 2px solid #ccc;
   }
 
   .education {
     flex-direction: column;
     align-items: center;
+    padding: 10px;
   }
 
-  .hs,
-  .shs,
-  .college {
+  .hs, .shs, .college {
     width: 90%;
-    margin: 20px 0;
-    padding: 16px;
     height: auto;
+    padding: 16px;
+    margin: 16px auto;
     text-align: center;
   }
 
-  .shs img,
-  .college img {
-    width: 100%;
-    max-width: 200px;
+  .shs img, .college img {
+    width: 80%;
     height: auto;
   }
 
   .oc {
     flex-direction: column;
     align-items: center;
-  }
-
-  .sololearn,
-  .sololearn-2,
-  .cisco,
-  .cisco-2 {
-    width: 90%;
-    margin: 16px 0;
-    text-align: center;
+    gap: 20px;
+    padding: 10px;
   }
 
   .image-container {
     width: 90%;
-    max-width: 300px;
     height: auto;
-    margin-bottom: 20px;
   }
 
   .overlay h2 {
@@ -326,7 +301,7 @@ footer {
   }
 
   footer {
-    font-size: 12px;
-    padding: 10px;
+    font-size: 0.8rem;
+    margin-top: 2rem;
   }
 }

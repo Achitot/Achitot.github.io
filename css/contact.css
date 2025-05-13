@@ -5,7 +5,7 @@ html, body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #0f1624;
     color: #ffffff;
-  }
+}
 
 nav {
     display: flex;
@@ -15,28 +15,28 @@ nav {
     background-color: #13151a;
 }
   
-  .navbar ul {
+.navbar ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
     padding-left: 0;
-  }
+}
   
-  .navbar li a {
+.navbar li a {
     text-decoration: none;
     font-size: 1rem;
     color: #ffffffcc;
     position: relative;
-  }
+}
   
-  .navbar li a.active,
-  .navbar li a:hover {
+.navbar li a.active,
+.navbar li a:hover {
     color: #6ac5fe;
-  }
+}
   
-  .navbar li a.active::after,
-  .navbar li a:hover::after {
+.navbar li a.active::after,
+.navbar li a:hover::after {
     content: '';
     display: block;
     height: 2px;
@@ -44,8 +44,7 @@ nav {
     margin-top: 4px;
 }
 
-.main
-{
+.main {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,33 +53,28 @@ nav {
     margin: auto;
 }
 
-.title
-{
+.title {
     font-size: 30px;
     font-weight: bold;
     padding: 1.5% 0;
 }
 
-.title-info
-{
+.title-info {
 	padding-bottom: 10px;
 }
 
-.form
-{
+.form {
     display: flex;
     flex-direction: column;
     width: 60%;
     padding: 2%;
 }
 
-.input-group, .textarea-group
-{
+.input-group, .textarea-group {
     padding: 1% 0;
 }
 
-input, textarea
-{
+input, textarea {
     color: inherit;
     width: 100%;
     background-color: transparent;
@@ -90,20 +84,17 @@ input, textarea
     font-size: 20px;
 }
 
-input:focus, textarea:focus
-{
+input:focus, textarea:focus {
     background-color: transparent;
     outline: transparent;
     border-bottom: 2px solid #6ac5fe;
 }
 
-input::placeholder, textarea::placeholder
-{
+input::placeholder, textarea::placeholder {
     color: transparent;
 }
 
-label
-{
+label {
     color: #757575;
     position: relative;
     left: 0.5em;
@@ -112,28 +103,24 @@ label
     transition: 0.3s ease all;
 }
 
-input:focus ~ label, input:not(:placeholder-shown) ~ label
-{
+input:focus ~ label, input:not(:placeholder-shown) ~ label {
     top: -4em;
     color: #6ac5fe;
     font-size: 15px;
 }
 
-textarea:focus ~ label, textarea:not(:placeholder-shown) ~ label
-{
+textarea:focus ~ label, textarea:not(:placeholder-shown) ~ label {
     top: -10.5em;
     color: #6ac5fe;
     font-size: 15px;
 }
 
-.button-div
-{
+.button-div {
     display: flex;
     justify-content: center;
 }
 
-button
-{
+button {
     padding: 2%;
     width: 50%;
     border: 1px solid;
@@ -146,15 +133,12 @@ button
     box-shadow: 0 0 10px #212121;
 }
 
-button:hover
-{
+button:hover {
     background-color: #424242;
     color: #6ac5fe;
     cursor: pointer;
 }
 
-
-/* Media queries */
 
 @media screen and (max-width: 1200px)
 {
@@ -256,8 +240,6 @@ button:hover
     background-color: #6ac5fe;
 }
 
-
-/* Footer */
 footer {
     text-align: center;
     margin-top: 3rem;

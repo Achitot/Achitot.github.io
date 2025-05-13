@@ -95,9 +95,9 @@ nav {
   padding: 20px;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 10px;
   margin-top: 35px;
-  text-indent: 5px;
+  text-indent: 10px;
 }
 
 .more-information li {
@@ -111,7 +111,7 @@ nav {
 .more-information li::before {
   content: '>';
   color: #2089ec;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 h1 {
@@ -227,10 +227,62 @@ h1 {
   background-color: #346590;
 }
 
-/* Footer */
 footer {
   text-align: center;
   margin-top: 48px;
   color: #aaa;
   font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar ul {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 10px;
+  }
+
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .about-me img {
+    margin: 0;
+    width: 80%;
+    max-width: 250px;
+  }
+
+  .container {
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  .more-information ul {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .hobbies {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hobbies > div {
+    margin: 10px 0;
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .hr-text {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .hr-text::after {
+    width: 100px;
+  }
 }
