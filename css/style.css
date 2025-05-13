@@ -69,7 +69,6 @@ html, body {
     margin-top: 4px;
 }
 
-/* Social icons */
 .social-icons {
     margin-top: 32px;
     display: flex;
@@ -95,4 +94,39 @@ footer {
     margin-top: 48px;
     color: #aaa;
     font-size: 14px;
+}
+
+@media screen and (max-width: 1200px)
+{
+    .navbar
+    {
+        width: 70%;
+    }
+    .container
+    {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 680px)
+{
+    .navbar
+    {
+		width: 90%;
+    }
+
+    .container
+    {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .container
+    {
+        width: 30%;
+        flex: content;
+        align-items: center;
+    }
 }
