@@ -96,37 +96,15 @@ footer {
     font-size: 14px;
 }
 
-@media screen and (max-width: 1200px)
-{
-    .navbar
-    {
-        width: 70%;
-    }
-    .container
-    {
-        width: 70%;
-    }
-}
-
-@media screen and (max-width: 680px)
-{
-    .navbar
-    {
-		width: 90%;
-    }
-
-    .container
-    {
-        width: 90%;
-    }
-}
-
 @media screen and (max-width: 500px)
 {
-    .container
+    .intro h1 
     {
-        width: 30%;
-        flex: content;
-        align-items: center;
+    font-size: 24px;
+    }
+
+    .intro h2 
+    {
+    font-size: 12px;
     }
 }
